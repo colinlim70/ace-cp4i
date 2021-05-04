@@ -1,0 +1,35 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: acecicd-pipeline-deploy-sink
+spec:
+  params:
+  - name: namespace
+    default: test-cp4i
+    description: name of the namespace to deploy and to build image url
+  - name: image_name
+    default: ace-sink
+    description: name of the image in the registry
+  - name: image_tag
+    default: '1.0'
+    description: image tag in the registry
+  resources:
+  - name: image
+    type: image
+  tasks:
+  - name: deploy-image
+    taskRef:
+      name: task-deploy-aceimg-sink
+    resources:
+      inputs:
+      - name: image
+        resource: image
+    params:
+    - name: namespace
+      value: $(params.namespace)
+    - name: image_name
+      value: $(params.image_name)
+    - name: image_tag
+      value: $(params.image_tag)
+    - name: integrationServerName
+      value: "$(params.image_name)-$(params.image_tag)"
