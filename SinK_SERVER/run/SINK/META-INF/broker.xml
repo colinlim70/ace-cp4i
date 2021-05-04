@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="Sink1">
+<ConfigurableProperty uri="Sink1#additionalInstances"/>
+<ConfigurableProperty uri="Sink1#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="Sink1#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="Sink1#processingTimeoutSec"/>
+<ConfigurableProperty uri="Sink1#processingTimeoutAction"/>
+<ConfigurableProperty uri="Sink1#wlmPolicy"/>
+<ConfigurableProperty uri="Sink1#commitCount"/>
+<ConfigurableProperty uri="Sink1#commitInterval"/>
+<ConfigurableProperty uri="Sink1#coordinatedTransaction"/>
+<ConfigurableProperty uri="Sink1#consumerPolicySet"/>
+<ConfigurableProperty uri="Sink1#providerPolicySet"/>
+<ConfigurableProperty uri="Sink1#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="Sink1#providerPolicySetBindings"/>
+<ConfigurableProperty uri="Sink1#securityProfileName"/>
+<ConfigurableProperty uri="Sink1#monitoringProfile"/>
+<ConfigurableProperty uri="Sink1#startMode"/>
+<ConfigurableProperty uri="Sink1#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="OUT1" uri="Sink1#MQ Input.queueName"/>
+<ConfigurableProperty override="CLIENT" uri="Sink1#MQ Input.connection"/>
+<ConfigurableProperty override="QM1" uri="Sink1#MQ Input.destinationQueueManagerName"/>
+<ConfigurableProperty override="localhost" uri="Sink1#MQ Input.queueManagerHostname"/>
+<ConfigurableProperty override="1414" uri="Sink1#MQ Input.listenerPortNumber"/>
+<ConfigurableProperty override="MY.SVRCONN" uri="Sink1#MQ Input.channelName"/>
+<ConfigurableProperty uri="Sink1#MQ Input.securityIdentity"/>
+<ConfigurableProperty uri="Sink1#MQ Input.useSSL"/>
+<ConfigurableProperty uri="Sink1#MQ Input.SSLPeerName"/>
+<ConfigurableProperty uri="Sink1#MQ Input.SSLCipherSpec"/>
+<ConfigurableProperty uri="Sink1#MQ Input.SSLCertificateLabel"/>
+<ConfigurableProperty uri="Sink1#MQ Input.serializationToken"/>
+<ConfigurableProperty uri="Sink1#MQ Input.topicProperty"/>
+<ConfigurableProperty uri="Sink1#MQ Input.resetBrowseTimeout"/>
+<ConfigurableProperty uri="Sink1#MQ Input.validateMaster"/>
+<ConfigurableProperty uri="Sink1#MQ Input.securityProfileName"/>
+<ConfigurableProperty uri="Sink1#MQ Input.componentLevel"/>
+<ConfigurableProperty uri="Sink1#MQ Input.additionalInstances"/>
+<ConfigurableProperty override="{MQPolicy}:MQPol1" uri="Sink1#MQ Input.policyUrl"/>
+<ConfigurableProperty uri="Sink1#Compute.dataSource"/>
+<ConfigurableProperty uri="Sink1#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="Sink1#Compute.validateMaster"/>
+</CompiledMessageFlow>
+<CompiledMessageFlow name="Sink2">
+<ConfigurableProperty uri="Sink2#additionalInstances"/>
+<ConfigurableProperty uri="Sink2#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="Sink2#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="Sink2#processingTimeoutSec"/>
+<ConfigurableProperty uri="Sink2#processingTimeoutAction"/>
+<ConfigurableProperty uri="Sink2#wlmPolicy"/>
+<ConfigurableProperty uri="Sink2#commitCount"/>
+<ConfigurableProperty uri="Sink2#commitInterval"/>
+<ConfigurableProperty uri="Sink2#coordinatedTransaction"/>
+<ConfigurableProperty uri="Sink2#consumerPolicySet"/>
+<ConfigurableProperty uri="Sink2#providerPolicySet"/>
+<ConfigurableProperty uri="Sink2#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="Sink2#providerPolicySetBindings"/>
+<ConfigurableProperty uri="Sink2#securityProfileName"/>
+<ConfigurableProperty uri="Sink2#monitoringProfile"/>
+<ConfigurableProperty uri="Sink2#startMode"/>
+<ConfigurableProperty uri="Sink2#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="OUT2" uri="Sink2#MQ Input.queueName"/>
+<ConfigurableProperty uri="Sink2#MQ Input.connection"/>
+<ConfigurableProperty override="QM1" uri="Sink2#MQ Input.destinationQueueManagerName"/>
+<ConfigurableProperty override="localhost" uri="Sink2#MQ Input.queueManagerHostname"/>
+<ConfigurableProperty override="1414" uri="Sink2#MQ Input.listenerPortNumber"/>
+<ConfigurableProperty override="MY.SVRCONN" uri="Sink2#MQ Input.channelName"/>
+<ConfigurableProperty uri="Sink2#MQ Input.securityIdentity"/>
+<ConfigurableProperty uri="Sink2#MQ Input.useSSL"/>
+<ConfigurableProperty uri="Sink2#MQ Input.SSLPeerName"/>
+<ConfigurableProperty uri="Sink2#MQ Input.SSLCipherSpec"/>
+<ConfigurableProperty uri="Sink2#MQ Input.SSLCertificateLabel"/>
+<ConfigurableProperty uri="Sink2#MQ Input.serializationToken"/>
+<ConfigurableProperty uri="Sink2#MQ Input.topicProperty"/>
+<ConfigurableProperty uri="Sink2#MQ Input.resetBrowseTimeout"/>
+<ConfigurableProperty uri="Sink2#MQ Input.validateMaster"/>
+<ConfigurableProperty uri="Sink2#MQ Input.securityProfileName"/>
+<ConfigurableProperty uri="Sink2#MQ Input.componentLevel"/>
+<ConfigurableProperty uri="Sink2#MQ Input.additionalInstances"/>
+<ConfigurableProperty override="{MQPolicy}:MQPol1" uri="Sink2#MQ Input.policyUrl"/>
+<ConfigurableProperty uri="Sink2#Compute.dataSource"/>
+<ConfigurableProperty uri="Sink2#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="Sink2#Compute.validateMaster"/>
+</CompiledMessageFlow>
+</Broker>

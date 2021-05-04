@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="Consumer">
+<ConfigurableProperty uri="Consumer#additionalInstances"/>
+<ConfigurableProperty uri="Consumer#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="Consumer#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="Consumer#processingTimeoutSec"/>
+<ConfigurableProperty uri="Consumer#processingTimeoutAction"/>
+<ConfigurableProperty uri="Consumer#wlmPolicy"/>
+<ConfigurableProperty uri="Consumer#commitCount"/>
+<ConfigurableProperty uri="Consumer#commitInterval"/>
+<ConfigurableProperty uri="Consumer#coordinatedTransaction"/>
+<ConfigurableProperty uri="Consumer#consumerPolicySet"/>
+<ConfigurableProperty uri="Consumer#providerPolicySet"/>
+<ConfigurableProperty uri="Consumer#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="Consumer#providerPolicySetBindings"/>
+<ConfigurableProperty uri="Consumer#securityProfileName"/>
+<ConfigurableProperty uri="Consumer#monitoringProfile"/>
+<ConfigurableProperty uri="Consumer#startMode"/>
+<ConfigurableProperty uri="Consumer#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="IN" uri="Consumer#MQ Input.queueName"/>
+<ConfigurableProperty uri="Consumer#MQ Input.connection"/>
+<ConfigurableProperty override="QM1" uri="Consumer#MQ Input.destinationQueueManagerName"/>
+<ConfigurableProperty uri="Consumer#MQ Input.queueManagerHostname"/>
+<ConfigurableProperty uri="Consumer#MQ Input.listenerPortNumber"/>
+<ConfigurableProperty uri="Consumer#MQ Input.channelName"/>
+<ConfigurableProperty uri="Consumer#MQ Input.securityIdentity"/>
+<ConfigurableProperty uri="Consumer#MQ Input.useSSL"/>
+<ConfigurableProperty uri="Consumer#MQ Input.SSLPeerName"/>
+<ConfigurableProperty uri="Consumer#MQ Input.SSLCipherSpec"/>
+<ConfigurableProperty uri="Consumer#MQ Input.SSLCertificateLabel"/>
+<ConfigurableProperty uri="Consumer#MQ Input.serializationToken"/>
+<ConfigurableProperty uri="Consumer#MQ Input.topicProperty"/>
+<ConfigurableProperty uri="Consumer#MQ Input.resetBrowseTimeout"/>
+<ConfigurableProperty uri="Consumer#MQ Input.validateMaster"/>
+<ConfigurableProperty uri="Consumer#MQ Input.securityProfileName"/>
+<ConfigurableProperty uri="Consumer#MQ Input.componentLevel"/>
+<ConfigurableProperty uri="Consumer#MQ Input.additionalInstances"/>
+<ConfigurableProperty override="{MQPolicy}:MQPol1" uri="Consumer#MQ Input.policyUrl"/>
+<ConfigurableProperty uri="Consumer#Compute.dataSource"/>
+<ConfigurableProperty uri="Consumer#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="Consumer#Compute.validateMaster"/>
+<ConfigurableProperty override="OUT1" uri="Consumer#MQ Output.queueName"/>
+<ConfigurableProperty uri="Consumer#MQ Output.connection"/>
+<ConfigurableProperty override="QM1" uri="Consumer#MQ Output.destinationQueueManagerName"/>
+<ConfigurableProperty uri="Consumer#MQ Output.queueManagerHostname"/>
+<ConfigurableProperty uri="Consumer#MQ Output.listenerPortNumber"/>
+<ConfigurableProperty uri="Consumer#MQ Output.channelName"/>
+<ConfigurableProperty uri="Consumer#MQ Output.securityIdentity"/>
+<ConfigurableProperty uri="Consumer#MQ Output.useSSL"/>
+<ConfigurableProperty uri="Consumer#MQ Output.SSLPeerName"/>
+<ConfigurableProperty uri="Consumer#MQ Output.SSLCipherSpec"/>
+<ConfigurableProperty uri="Consumer#MQ Output.SSLCertificateLabel"/>
+<ConfigurableProperty uri="Consumer#MQ Output.queueManagerName"/>
+<ConfigurableProperty uri="Consumer#MQ Output.replyToQMgr"/>
+<ConfigurableProperty uri="Consumer#MQ Output.replyToQ"/>
+<ConfigurableProperty uri="Consumer#MQ Output.validateMaster"/>
+<ConfigurableProperty uri="Consumer#MQ Output.securityProfileName"/>
+<ConfigurableProperty override="{MQPolicy}:MQPol1" uri="Consumer#MQ Output.policyUrl"/>
+<ConfigurableProperty uri="Consumer#MQ Output.AddRequestToGroup"/>
+<ConfigurableProperty uri="Consumer#MQ Output.GroupRequestFolderName"/>
+<ConfigurableProperty uri="Consumer#MQ Output.GroupRequestTimeout"/>
+<ConfigurableProperty override="OUT2" uri="Consumer#MQ Output1.queueName"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.connection"/>
+<ConfigurableProperty override="QM1" uri="Consumer#MQ Output1.destinationQueueManagerName"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.queueManagerHostname"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.listenerPortNumber"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.channelName"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.securityIdentity"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.useSSL"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.SSLPeerName"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.SSLCipherSpec"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.SSLCertificateLabel"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.queueManagerName"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.replyToQMgr"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.replyToQ"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.validateMaster"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.securityProfileName"/>
+<ConfigurableProperty override="{MQPolicy}:MQPol1" uri="Consumer#MQ Output1.policyUrl"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.AddRequestToGroup"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.GroupRequestFolderName"/>
+<ConfigurableProperty uri="Consumer#MQ Output1.GroupRequestTimeout"/>
+<ConfigurableProperty override="/tmp/trace.log" uri="Consumer#Trace.filePath"/>
+</CompiledMessageFlow>
+</Broker>

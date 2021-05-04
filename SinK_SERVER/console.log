@@ -1,0 +1,18 @@
+.....2021-04-18 11:15:57.328352: .2021-04-18 21:15:57.328712: BIP1990I: Integration server 'SinK_SERVER' starting initialization; version '11.0.0.11' (64-bit) 
+.....................2021-04-18 21:15:57.380832: BIP7412W: Integration node JVM startup: the specified JVM debug port (9997) is already in use. 
+......................2021-04-18 21:16:07.446943: BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2021-04-18 21:16:07.468747: BIP3144S: An error has occurred during HTTP listener startup: the specified TCPIP port (7600) is already in use. 
+.
+2021-04-18 21:16:07.474277: BIP1991I: Integration server has finished initialization. 
+2021-04-18 21:17:44.327824: BIP2152I: Configuration message received. 
+2021-04-18 21:17:44.331492: BIP9332I: PolicyProject 'MQPolicy' has been created successfully. 
+2021-04-18 21:17:44.331584: BIP9326I: The source 'MQPolicy.bar' has been successfully deployed. 
+2021-04-18 21:17:44.331696: BIP2154I: Integration server finished with Configuration message. 
+2021-04-18 21:21:10.121406: BIP2152I: Configuration message received. 
+2021-04-18 21:21:10.146080: BIP2155I: About to 'Initialize' the deployed resource 'SINK' of type 'Application'. 
+2021-04-18 21:21:10.788416: BIP2155I: About to 'Start' the deployed resource 'SINK' of type 'Application'. 
+2021-04-18 21:21:10.788771: BIP2269I: Deployed resource 'Sink1' (uuid='Sink1',type='MessageFlow') started successfully. 
+2021-04-18 21:21:10.788892: BIP2269I: Deployed resource 'Sink2' (uuid='Sink2',type='MessageFlow') started successfully. 
+2021-04-18 21:21:10.788943: BIP9332I: Application 'SINK' has been created successfully. 
+2021-04-18 21:21:10.788980: BIP9326I: The source 'SINK.bar' has been successfully deployed. 
+2021-04-18 21:21:10.789133: BIP2154I: Integration server finished with Configuration message. 

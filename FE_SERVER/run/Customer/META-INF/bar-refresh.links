@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="true" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1618583160000" workspaceResource="/Customer/CustomerInputCatchHandler.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/CustomerInputCatchHandler.subflow.&#xA;Successfully added file Customer/CustomerInputCatchHandler.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="CustomerInputCatchHandler.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618583160000" workspaceResource="/Customer/gen/Customer.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/gen/Customer.msgflow.&#xA;Successfully added file Customer/gen/Customer.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="gen/Customer.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618654585000" workspaceResource="/Customer/getAllCustomers.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/getAllCustomers.subflow.&#xA;Successfully added file Customer/getAllCustomers.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getAllCustomers.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618583160000" workspaceResource="/Customer/getAllCustomers_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/getAllCustomers_Compute.esql.&#xA;Successfully added file Customer/getAllCustomers_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getAllCustomers_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618642933000" workspaceResource="/Customer/getAllCustomers_Compute1.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/getAllCustomers_Compute1.esql.&#xA;Successfully added file Customer/getAllCustomers_Compute1.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getAllCustomers_Compute1.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618583160000" workspaceResource="/Customer/getAllCustomers_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/getAllCustomers_Mapping.map.&#xA;Successfully added file Customer/getAllCustomers_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getAllCustomers_Mapping.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618654587000" workspaceResource="/Customer/getCustomer.subflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/getCustomer.subflow.&#xA;Successfully added file Customer/getCustomer.subflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getCustomer.subflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618642954000" workspaceResource="/Customer/getCustomer_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/getCustomer_Compute.esql.&#xA;Successfully added file Customer/getCustomer_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getCustomer_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618583160000" workspaceResource="/Customer/getCustomer_Mapping.map">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/getCustomer_Mapping.map.&#xA;Successfully added file Customer/getCustomer_Mapping.map to BAR file.&#xA;" severity="0"/>
+      <barEntry name="getCustomer_Mapping.map"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618583160000" workspaceResource="/Customer/restapi.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/restapi.descriptor.&#xA;Successfully added file Customer/restapi.descriptor to BAR file.&#xA;Elapsed time: 0.001 second(s).&#xA;&#xA;Successfully added file Customer/restapi.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="restapi.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618583160000" workspaceResource="/Customer/swagger.json">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Customer/swagger.json.&#xA;Successfully added file Customer/swagger.json to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file Customer/swagger.json to BAR file.&#xA;" severity="0"/>
+      <barEntry name="swagger.json"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

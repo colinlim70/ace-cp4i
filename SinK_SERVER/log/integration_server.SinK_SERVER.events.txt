@@ -1,0 +1,17 @@
+2021-04-18 11:15:57.328712Z: [Thread 79977] (Msg 1/1) BIP1990I: Integration server 'SinK_SERVER' starting initialization; version '11.0.0.11' (64-bit) 
+2021-04-18 11:15:57.380832Z: [Thread 79977] (Msg 1/1) BIP7412W: Integration node JVM startup: the specified JVM debug port (9997) is already in use. 
+2021-04-18 11:16:07.446943Z: [Thread 80055] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2021-04-18 11:16:07.468747Z: [Thread 80055] (Msg 1/1) BIP3144S: An error has occurred during HTTP listener startup: the specified TCPIP port (7600) is already in use. 
+2021-04-18 11:16:07.474277Z: [Thread 79977] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2021-04-18 11:17:44.327824Z: [Thread 79989] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-04-18 11:17:44.331492Z: [Thread 79989] (Msg 1/1) BIP9332I: PolicyProject 'MQPolicy' has been created successfully. 
+2021-04-18 11:17:44.331584Z: [Thread 79989] (Msg 1/1) BIP9326I: The source 'MQPolicy.bar' has been successfully deployed. 
+2021-04-18 11:17:44.331696Z: [Thread 79989] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-04-18 11:21:10.121406Z: [Thread 79988] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-04-18 11:21:10.146080Z: [Thread 79988] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'SINK' of type 'Application'. 
+2021-04-18 11:21:10.788416Z: [Thread 79988] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'SINK' of type 'Application'. 
+2021-04-18 11:21:10.788771Z: [Thread 79988] (Msg 1/1) BIP2269I: Deployed resource 'Sink1' (uuid='Sink1',type='MessageFlow') started successfully. 
+2021-04-18 11:21:10.788892Z: [Thread 79988] (Msg 1/1) BIP2269I: Deployed resource 'Sink2' (uuid='Sink2',type='MessageFlow') started successfully. 
+2021-04-18 11:21:10.788943Z: [Thread 79988] (Msg 1/1) BIP9332I: Application 'SINK' has been created successfully. 
+2021-04-18 11:21:10.788980Z: [Thread 79988] (Msg 1/1) BIP9326I: The source 'SINK.bar' has been successfully deployed. 
+2021-04-18 11:21:10.789133Z: [Thread 79988] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 

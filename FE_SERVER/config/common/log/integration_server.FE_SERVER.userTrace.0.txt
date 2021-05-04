@@ -1,0 +1,35 @@
+
+====== Starting plaintext trace (process ID 78118 - integration_server.FE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 12:56:50.704336 ===
+
+
+====== Starting plaintext trace (process ID 5230 - integration_server.FE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 14:09:06.268069 ===
+
+
+====== Starting plaintext trace (process ID 12654 - integration_server.FE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 17:30:40.993220 ===
+
+
+====== Starting plaintext trace (process ID 6801 - integration_server.FE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 22:19:53.805660 ===
+
+
+====== Starting plaintext trace (process ID 71693 - integration_server.FE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-18 18:14:39.969996 ===
+

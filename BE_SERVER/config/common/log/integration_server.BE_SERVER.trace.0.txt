@@ -1,0 +1,42 @@
+
+====== Starting plaintext trace (process ID 80301 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 13:25:07.501232 ===
+
+
+====== Starting plaintext trace (process ID 5055 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 14:08:33.751908 ===
+
+
+====== Starting plaintext trace (process ID 12812 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 17:31:13.233393 ===
+
+
+====== Starting plaintext trace (process ID 3863 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 21:56:31.585924 ===
+
+
+====== Starting plaintext trace (process ID 71528 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-18 18:13:51.738636 ===
+
+
+====== Starting plaintext trace (process ID 79804 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-18 21:15:25.763626 ===
+

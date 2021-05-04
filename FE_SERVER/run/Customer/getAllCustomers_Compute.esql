@@ -1,0 +1,30 @@
+
+
+CREATE COMPUTE MODULE getAllCustomers_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
+		
+		Set OutputRoot.JSON.Data.Item[1].id = 1002;
+		Set OutputRoot.JSON.Data.Item[1].firstname = 'Alice';
+		Set OutputRoot.JSON.Data.Item[1].lastname = 'Doe';
+		Set OutputRoot.JSON.Data.Item[1].address = 'Alice Address';
+		
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE CopyEntireMessage() BEGIN
+		SET OutputRoot = InputRoot;
+	END;
+END MODULE;

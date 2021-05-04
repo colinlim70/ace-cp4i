@@ -1,0 +1,30 @@
+.....2021-04-18 08:14:40.451796: .2021-04-18 18:14:40.452152: BIP1990I: Integration server 'FE_SERVER' starting initialization; version '11.0.0.11' (64-bit) 
+.....................Listening for transport dt_socket at address: 9997
+....................2021-04-18 18:14:51.156356: BIP2155I: About to 'Initialize' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-18 18:15:08.038160: BIP2155I: About to 'Start' the deployed resource 'Customer' of type 'RestAPI'. 
+An http endpoint was registered on port '7800', path '/customerdb/v1*'.
+2021-04-18 18:15:08.068772: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2021-04-18 18:15:08.068843: BIP1996I: Listening on HTTP URL '/customerdb/v1*'. 
+Started native listener for HTTP input node on port 7800 for URL /customerdb/v1*
+2021-04-18 18:15:08.069084: BIP2269I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') started successfully. 
+..2021-04-18 18:15:09.964089: BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2021-04-18 18:15:10.011323: BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+.
+2021-04-18 18:15:10.028286: BIP1991I: Integration server has finished initialization. 
+2021-04-18 18:21:40.921484: BIP1364E: The policy project 'MQPolicy' cannot be deleted because the application 'Customer' depends on policies contained within the project. 
+2021-04-18 19:24:56.412596: BIP2155I: About to 'Stop' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-18 19:25:00.980494: BIP2271I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') successfully stopped. 
+2021-04-18 19:25:00.980637: BIP2155I: About to 'TearDown' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-18 19:25:00.994555: BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2021-04-18 19:25:01.064641: BIP9521I: RestAPI 'Customer' has been deleted. 
+2021-04-18 20:30:38.395120: BIP2152I: Configuration message received. 
+2021-04-18 20:30:38.464688: BIP2155I: About to 'Initialize' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-18 20:30:40.627912: BIP2155I: About to 'Start' the deployed resource 'Customer' of type 'RestAPI'. 
+An http endpoint was registered on port '7800', path '/customerdb/v1*'.
+2021-04-18 20:30:40.635240: BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2021-04-18 20:30:40.635304: BIP1996I: Listening on HTTP URL '/customerdb/v1*'. 
+Started native listener for HTTP input node on port 7800 for URL /customerdb/v1*
+2021-04-18 20:30:40.635552: BIP2269I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') started successfully. 
+2021-04-18 20:30:40.635624: BIP9332I: RestAPI 'Customer' has been created successfully. 
+2021-04-18 20:30:40.635696: BIP9326I: The source 'FE.bar' has been successfully deployed. 
+2021-04-18 20:30:40.635888: BIP2154I: Integration server finished with Configuration message. 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="true" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1618661145000" workspaceResource="/SINK/Sink1.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file SINK/Sink1.msgflow.&#xA;Successfully added file SINK/Sink1.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Sink1.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618661152000" workspaceResource="/SINK/Sink2.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file SINK/Sink2.msgflow.&#xA;Successfully added file SINK/Sink2.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Sink2.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618654825000" workspaceResource="/SINK/Sink2_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file SINK/Sink2_Compute.esql.&#xA;Successfully added file SINK/Sink2_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Sink2_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618654838000" workspaceResource="/SINK/Sink_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file SINK/Sink_Compute.esql.&#xA;Successfully added file SINK/Sink_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="Sink_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1618661132000" workspaceResource="/SINK/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file SINK/application.descriptor.&#xA;Successfully added file SINK/application.descriptor to BAR file.&#xA;Elapsed time: 0 second(s).&#xA;&#xA;Successfully added file SINK/application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

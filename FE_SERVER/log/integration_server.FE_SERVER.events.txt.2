@@ -1,0 +1,117 @@
+2021-04-17 07:30:41.145212Z: [Thread 12654] (Msg 1/1) BIP1990I: Integration server 'FE_SERVER' starting initialization; version '11.0.0.11' (64-bit) 
+2021-04-17 07:30:48.655888Z: [Thread 12654] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 07:30:57.794912Z: [Thread 12654] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 07:30:57.813296Z: [Thread 12654] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2021-04-17 07:30:57.813372Z: [Thread 12654] (Msg 1/1) BIP1996I: Listening on HTTP URL '/customerdb/v1*'. 
+2021-04-17 07:30:57.813608Z: [Thread 12654] (Msg 1/1) BIP2269I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') started successfully. 
+2021-04-17 07:30:59.580836Z: [Thread 12741] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2021-04-17 07:30:59.646952Z: [Thread 12741] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2021-04-17 07:30:59.655512Z: [Thread 12654] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2021-04-17 07:32:33.125950Z: [Thread 12667] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-04-17 07:32:33.126014Z: [Thread 12667] (Msg 1/1) BIP2153I: About to 'deleteAll' an integration server. 
+2021-04-17 07:32:33.126434Z: [Thread 12667] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 07:32:33.807456Z: [Thread 12667] (Msg 1/1) BIP2271I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') successfully stopped. 
+2021-04-17 07:32:33.807544Z: [Thread 12667] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 07:32:33.826124Z: [Thread 12667] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2021-04-17 07:32:33.845092Z: [Thread 12667] (Msg 1/1) BIP9521I: RestAPI 'Customer' has been deleted. 
+2021-04-17 07:32:33.845380Z: [Thread 12667] (Msg 1/1) BIP9521I: PolicyProject 'MQPolicy' has been deleted. 
+2021-04-17 07:32:33.852880Z: [Thread 12667] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-04-17 07:34:53.047676Z: [Thread 12665] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-04-17 07:34:53.079040Z: [Thread 12665] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 07:34:55.186220Z: [Thread 12665] (Msg 1/1) BIP9332I: PolicyProject 'MQPolicy' has been created successfully. 
+2021-04-17 07:34:55.186336Z: [Thread 12665] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 07:34:55.193020Z: [Thread 12665] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2021-04-17 07:34:55.193096Z: [Thread 12665] (Msg 1/1) BIP1996I: Listening on HTTP URL '/customerdb/v1*'. 
+2021-04-17 07:34:55.193340Z: [Thread 12665] (Msg 1/1) BIP2269I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') started successfully. 
+2021-04-17 07:34:55.193400Z: [Thread 12665] (Msg 1/1) BIP9332I: RestAPI 'Customer' has been created successfully. 
+2021-04-17 07:34:55.193448Z: [Thread 12665] (Msg 1/1) BIP9326I: The source 'FE.bar' has been successfully deployed. 
+2021-04-17 07:34:55.193636Z: [Thread 12665] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-04-17 07:35:18.782794Z: [Thread 13222] (Msg 1/5) BIP2232E: Error detected whilst handling a previous error in node 'gen.Customer.CustomerInputCatchHandler.Throw'. 
+2021-04-17 07:35:18.782878Z: [Thread 13222] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 07:35:18.782908Z: [Thread 13222] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 07:35:18.782944Z: [Thread 13222] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 07:35:18.782978Z: [Thread 13222] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 07:35:18.783156Z: [Thread 13222] (Msg 1/5) BIP3120E: Exception condition detected on input node 'gen.Customer.HTTP Input'. 
+2021-04-17 07:35:18.783316Z: [Thread 13222] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 07:35:18.783342Z: [Thread 13222] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 07:35:18.783374Z: [Thread 13222] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 07:35:18.783402Z: [Thread 13222] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 07:45:58.486940Z: [Thread 13268] (Msg 1/5) BIP2232E: Error detected whilst handling a previous error in node 'gen.Customer.CustomerInputCatchHandler.Throw'. 
+2021-04-17 07:45:58.487076Z: [Thread 13268] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 07:45:58.487136Z: [Thread 13268] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 07:45:58.487208Z: [Thread 13268] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 07:45:58.487300Z: [Thread 13268] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 07:46:00.820295Z: [Thread 13268] (Msg 1/5) BIP3120E: Exception condition detected on input node 'gen.Customer.HTTP Input'. 
+2021-04-17 07:46:00.820363Z: [Thread 13268] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 07:46:00.820389Z: [Thread 13268] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 07:46:00.820411Z: [Thread 13268] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 07:46:00.820440Z: [Thread 13268] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 07:55:25.768104Z: [Thread 13222] (Msg 1/5) BIP2232E: Error detected whilst handling a previous error in node 'gen.Customer.CustomerInputCatchHandler.Throw'. 
+2021-04-17 07:55:25.768350Z: [Thread 13222] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 07:55:25.768424Z: [Thread 13222] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 07:55:25.768466Z: [Thread 13222] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 07:55:25.768506Z: [Thread 13222] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 07:55:27.613002Z: [Thread 13222] (Msg 1/5) BIP3120E: Exception condition detected on input node 'gen.Customer.HTTP Input'. 
+2021-04-17 07:55:27.613078Z: [Thread 13222] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 07:55:27.613106Z: [Thread 13222] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 07:55:27.613142Z: [Thread 13222] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 07:55:27.613172Z: [Thread 13222] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 08:00:51.492996Z: [Thread 13268] (Msg 1/5) BIP2232E: Error detected whilst handling a previous error in node 'gen.Customer.CustomerInputCatchHandler.Throw'. 
+2021-04-17 08:00:51.493072Z: [Thread 13268] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 08:00:51.493100Z: [Thread 13268] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 08:00:51.493124Z: [Thread 13268] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 08:00:51.493152Z: [Thread 13268] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 08:00:53.255204Z: [Thread 13268] (Msg 1/5) BIP3120E: Exception condition detected on input node 'gen.Customer.HTTP Input'. 
+2021-04-17 08:00:53.255284Z: [Thread 13268] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 08:00:53.255312Z: [Thread 13268] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 08:00:53.255332Z: [Thread 13268] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 08:00:53.255364Z: [Thread 13268] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 09:37:05.190461Z: [Thread 13222] (Msg 1/5) BIP2232E: Error detected whilst handling a previous error in node 'gen.Customer.CustomerInputCatchHandler.Throw'. 
+2021-04-17 09:37:05.192079Z: [Thread 13222] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 09:37:05.192130Z: [Thread 13222] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 09:37:05.192158Z: [Thread 13222] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 09:37:05.192192Z: [Thread 13222] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 09:37:07.414148Z: [Thread 13222] (Msg 1/5) BIP3120E: Exception condition detected on input node 'gen.Customer.HTTP Input'. 
+2021-04-17 09:37:07.414223Z: [Thread 13222] (Msg 2/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).Mapping'. 
+2021-04-17 09:37:07.414248Z: [Thread 13222] (Msg 3/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Header'. 
+2021-04-17 09:37:07.414270Z: [Thread 13222] (Msg 4/5) BIP2230E: Error detected whilst processing a message in node 'gen.Customer.getCustomer (Implementation).MQ Output'. 
+2021-04-17 09:37:07.414299Z: [Thread 13222] (Msg 5/5) BIP2677E: Failed to make a client connection to queue manager 'QM1' using hostname 'localhost' on port '1414': MQCC=2; MQRC=2035. 
+2021-04-17 09:47:45.973676Z: [Thread 12668] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-04-17 09:47:46.029316Z: [Thread 12668] (Msg 1/1) BIP9339W: The values defined in the policy(s) 'MQPol1' in policy project 'MQPolicy' match the values of the existing policy(s). Any deployed resources using the policy(s) will not be affected by the redeploy of the policy project. 
+2021-04-17 09:47:46.029852Z: [Thread 12668] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 09:47:47.854212Z: [Thread 12668] (Msg 1/1) BIP2271I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') successfully stopped. 
+2021-04-17 09:47:47.854396Z: [Thread 12668] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 09:47:47.875832Z: [Thread 12668] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2021-04-17 09:47:47.915592Z: [Thread 12668] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 09:47:49.373600Z: [Thread 12668] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 09:47:49.422000Z: [Thread 12668] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2021-04-17 09:47:49.422136Z: [Thread 12668] (Msg 1/1) BIP1996I: Listening on HTTP URL '/customerdb/v1*'. 
+2021-04-17 09:47:49.422464Z: [Thread 12668] (Msg 1/1) BIP2269I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') started successfully. 
+2021-04-17 09:47:49.422516Z: [Thread 12668] (Msg 1/1) BIP9332I: RestAPI 'Customer' has been changed successfully. 
+2021-04-17 09:47:49.422628Z: [Thread 12668] (Msg 1/1) BIP9326I: The source 'FE.bar' has been successfully deployed. 
+2021-04-17 09:47:49.422944Z: [Thread 12668] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-04-17 10:36:51.326876Z: [Thread 12661] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-04-17 10:36:51.376104Z: [Thread 12661] (Msg 1/1) BIP9339W: The values defined in the policy(s) 'MQPol1' in policy project 'MQPolicy' match the values of the existing policy(s). Any deployed resources using the policy(s) will not be affected by the redeploy of the policy project. 
+2021-04-17 10:36:51.376256Z: [Thread 12661] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 10:36:54.802608Z: [Thread 12661] (Msg 1/1) BIP2271I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') successfully stopped. 
+2021-04-17 10:36:54.802744Z: [Thread 12661] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 10:36:54.814128Z: [Thread 12661] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2021-04-17 10:36:54.840940Z: [Thread 12661] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 10:36:55.741988Z: [Thread 12661] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 10:36:55.749736Z: [Thread 12661] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7800' for 'http' connections. 
+2021-04-17 10:36:55.749828Z: [Thread 12661] (Msg 1/1) BIP1996I: Listening on HTTP URL '/customerdb/v1*'. 
+2021-04-17 10:36:55.750100Z: [Thread 12661] (Msg 1/1) BIP2269I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') started successfully. 
+2021-04-17 10:36:55.750156Z: [Thread 12661] (Msg 1/1) BIP9332I: RestAPI 'Customer' has been changed successfully. 
+2021-04-17 10:36:55.750196Z: [Thread 12661] (Msg 1/1) BIP9326I: The source 'FE.bar' has been successfully deployed. 
+2021-04-17 10:36:55.750392Z: [Thread 12661] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-04-17 10:47:22.937324Z: [Thread 12664] (Msg 1/1) BIP2152I: Configuration message received. 
+2021-04-17 10:47:22.937470Z: [Thread 12664] (Msg 1/1) BIP2153I: About to 'deleteAll' an integration server. 
+2021-04-17 10:47:22.938138Z: [Thread 12664] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 10:47:26.883662Z: [Thread 12664] (Msg 1/1) BIP2271I: Deployed resource 'gen.Customer' (uuid='gen.Customer',type='MessageFlow') successfully stopped. 
+2021-04-17 10:47:26.883796Z: [Thread 12664] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'Customer' of type 'RestAPI'. 
+2021-04-17 10:47:26.904294Z: [Thread 12664] (Msg 1/1) BIP3133I: The HTTP Listener has stopped listening on port '7800' for 'http' connections. 
+2021-04-17 10:47:26.920738Z: [Thread 12664] (Msg 1/1) BIP9521I: RestAPI 'Customer' has been deleted. 
+2021-04-17 10:47:26.921400Z: [Thread 12664] (Msg 1/1) BIP9521I: PolicyProject 'MQPolicy' has been deleted. 
+2021-04-17 10:47:26.923342Z: [Thread 12664] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2021-04-17 11:04:51.108544Z: [Thread 12654] (Msg 1/1) BIP1989I: Integration server is terminating due to a shutdown event. 
+2021-04-17 11:05:05.075668Z: [Thread 12654] (Msg 1/1) BIP1992I: Integration server 'FE_SERVER' stopped. 

@@ -1,0 +1,48 @@
+
+==============================================
+
+!Sun Apr 18 21:20:54 AEST 2021
+
+Processing file SINK/Sink2.msgflow.
+Successfully added file SINK/Sink2.msgflow to BAR file.
+
+==============================================
+
+!Sun Apr 18 21:20:54 AEST 2021
+
+Processing file SINK/Sink1.msgflow.
+Successfully added file SINK/Sink1.msgflow to BAR file.
+
+==============================================
+
+!Sun Apr 18 21:20:54 AEST 2021
+
+Processing file SINK/Sink2_Compute.esql.
+Successfully added file SINK/Sink2_Compute.esql to BAR file.
+
+==============================================
+
+!Sun Apr 18 21:20:54 AEST 2021
+
+Processing file SINK/Sink_Compute.esql.
+Successfully added file SINK/Sink_Compute.esql to BAR file.
+
+==============================================
+
+!Sun Apr 18 21:20:54 AEST 2021
+
+Processing file SINK/application.descriptor.
+Successfully added file SINK/application.descriptor to BAR file.
+Elapsed time: 0.004 second(s).
+
+Successfully added file SINK/application.descriptor to BAR file.
+
+==============================================
+
+!Sun Apr 18 21:20:54 AEST 2021
+
+Processing file SINK/application.descriptor.
+Successfully added file SINK/application.descriptor to BAR file.
+Elapsed time: 0 second(s).
+
+Successfully added file SINK/application.descriptor to BAR file.

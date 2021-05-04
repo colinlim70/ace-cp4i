@@ -1,0 +1,35 @@
+
+==============================================
+
+!Sat Apr 17 20:36:29 AEST 2021
+
+Successfully added file Customer/gen/Customer.msgflow to BAR file.
+
+Successfully added file Customer/CustomerInputCatchHandler.subflow to BAR file.
+
+Successfully added file Customer/getAllCustomers.subflow to BAR file.
+
+Successfully added file Customer/getAllCustomers_Compute.esql to BAR file.
+
+Successfully added file Customer/getAllCustomers_Compute1.esql to BAR file.
+
+Successfully added file Customer/getAllCustomers_Mapping.map to BAR file.
+
+Successfully added file Customer/getCustomer.subflow to BAR file.
+
+Successfully added file Customer/getCustomer_Compute.esql to BAR file.
+
+Successfully added file Customer/getCustomer_Mapping.map to BAR file.
+
+Successfully added file Customer/restapi.descriptor to BAR file.
+
+Successfully added file Customer/restapi.descriptor to BAR file.
+
+Successfully added file Customer/restapi.descriptor to BAR file.
+
+Successfully added file Customer/restapi.descriptor to BAR file.
+
+Successfully added file Customer/swagger.json to BAR file.
+
+Successfully added file Customer/swagger.json to BAR file.
+

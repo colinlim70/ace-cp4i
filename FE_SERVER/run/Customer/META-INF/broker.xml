@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="gen.Customer">
+<ConfigurableProperty override="3" uri="gen.Customer#additionalInstances"/>
+<ConfigurableProperty uri="gen.Customer#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="gen.Customer#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="gen.Customer#processingTimeoutSec"/>
+<ConfigurableProperty uri="gen.Customer#processingTimeoutAction"/>
+<ConfigurableProperty uri="gen.Customer#wlmPolicy"/>
+<ConfigurableProperty uri="gen.Customer#commitCount"/>
+<ConfigurableProperty uri="gen.Customer#commitInterval"/>
+<ConfigurableProperty uri="gen.Customer#coordinatedTransaction"/>
+<ConfigurableProperty uri="gen.Customer#consumerPolicySet"/>
+<ConfigurableProperty uri="gen.Customer#providerPolicySet"/>
+<ConfigurableProperty uri="gen.Customer#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="gen.Customer#providerPolicySetBindings"/>
+<ConfigurableProperty uri="gen.Customer#securityProfileName"/>
+<ConfigurableProperty uri="gen.Customer#monitoringProfile"/>
+<ConfigurableProperty uri="gen.Customer#startMode"/>
+<ConfigurableProperty uri="gen.Customer#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="/customerdb/v1*" uri="gen.Customer#HTTP Input.URLSpecifier"/>
+<ConfigurableProperty uri="gen.Customer#HTTP Input.useHTTPS"/>
+<ConfigurableProperty uri="gen.Customer#HTTP Input.decompressInputMessage"/>
+<ConfigurableProperty uri="gen.Customer#HTTP Input.timeoutForClient"/>
+<ConfigurableProperty override="HTML" uri="gen.Customer#HTTP Input.faultFormat"/>
+<ConfigurableProperty uri="gen.Customer#HTTP Input.validateMaster"/>
+<ConfigurableProperty uri="gen.Customer#HTTP Input.securityProfileName"/>
+<ConfigurableProperty uri="gen.Customer#HTTP Reply.validateMaster"/>
+</CompiledMessageFlow>
+<CompiledMessageFlow name="getAllCustomers" type="subflow">
+<ConfigurableProperty uri="getAllCustomers#Compute.dataSource"/>
+<ConfigurableProperty uri="getAllCustomers#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="getAllCustomers#Compute.validateMaster"/>
+<ConfigurableProperty override="IN" uri="getAllCustomers#MQ Output.queueName"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.connection"/>
+<ConfigurableProperty override="QM1" uri="getAllCustomers#MQ Output.destinationQueueManagerName"/>
+<ConfigurableProperty override="localhost" uri="getAllCustomers#MQ Output.queueManagerHostname"/>
+<ConfigurableProperty override="1414" uri="getAllCustomers#MQ Output.listenerPortNumber"/>
+<ConfigurableProperty override="MY.SVRCONN" uri="getAllCustomers#MQ Output.channelName"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.securityIdentity"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.useSSL"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.SSLPeerName"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.SSLCipherSpec"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.SSLCertificateLabel"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.queueManagerName"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.replyToQMgr"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.replyToQ"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.validateMaster"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.securityProfileName"/>
+<ConfigurableProperty override="{MQPolicy}:MQPol1" uri="getAllCustomers#MQ Output.policyUrl"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.AddRequestToGroup"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.GroupRequestFolderName"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Output.GroupRequestTimeout"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Header.mqmdReplyToQ"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Header.mqmdReplyToQMgr"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Header.mqdlhDestQName"/>
+<ConfigurableProperty uri="getAllCustomers#MQ Header.mqdlhDestQMgrName"/>
+<ConfigurableProperty uri="getAllCustomers#Compute1.dataSource"/>
+<ConfigurableProperty uri="getAllCustomers#Compute1.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="getAllCustomers#Compute1.validateMaster"/>
+</CompiledMessageFlow>
+<CompiledMessageFlow name="getCustomer" type="subflow">
+<ConfigurableProperty override="OUT2" uri="getCustomer#MQ Output.queueName"/>
+<ConfigurableProperty override="CLIENT" uri="getCustomer#MQ Output.connection"/>
+<ConfigurableProperty override="QM1" uri="getCustomer#MQ Output.destinationQueueManagerName"/>
+<ConfigurableProperty override="localhost" uri="getCustomer#MQ Output.queueManagerHostname"/>
+<ConfigurableProperty override="1414" uri="getCustomer#MQ Output.listenerPortNumber"/>
+<ConfigurableProperty override="MY.SVRCONN" uri="getCustomer#MQ Output.channelName"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.securityIdentity"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.useSSL"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.SSLPeerName"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.SSLCipherSpec"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.SSLCertificateLabel"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.queueManagerName"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.replyToQMgr"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.replyToQ"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.validateMaster"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.securityProfileName"/>
+<ConfigurableProperty override="{MQPolicy}:MQPol1" uri="getCustomer#MQ Output.policyUrl"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.AddRequestToGroup"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.GroupRequestFolderName"/>
+<ConfigurableProperty uri="getCustomer#MQ Output.GroupRequestTimeout"/>
+<ConfigurableProperty uri="getCustomer#Compute.dataSource"/>
+<ConfigurableProperty uri="getCustomer#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="getCustomer#Compute.validateMaster"/>
+<ConfigurableProperty uri="getCustomer#MQ Header.mqmdReplyToQ"/>
+<ConfigurableProperty uri="getCustomer#MQ Header.mqmdReplyToQMgr"/>
+<ConfigurableProperty uri="getCustomer#MQ Header.mqdlhDestQName"/>
+<ConfigurableProperty uri="getCustomer#MQ Header.mqdlhDestQMgrName"/>
+</CompiledMessageFlow>
+<CompiledMessageFlow name="CustomerInputCatchHandler" type="subflow"/>
+</Broker>

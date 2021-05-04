@@ -1,0 +1,75 @@
+
+====== Starting plaintext trace (process ID 80301 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 13:25:07.501511 ===
+
+
+====== Starting plaintext trace (process ID 5055 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 14:08:33.756452 ===
+
+2021-04-17 14:19:36.751524     5109  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='5055', Key='0', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='integration_server', integrationNodeUUID='', integrationServerName='BE_SERVER', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='Consumer', StartDate='2021-04-17', StartTime='14:19:33.611322', GMTStartTime='2021-04-17T04:19:33.611+00:00', EndDate='2021-04-17', GMTEndTime='2021-04-17T04:19:36.666+00:00', EndTime='14:19:36.666483', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='997', ElapsedTimeWaitingForInputMessage='3054759', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='3', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'Consumer' in integration node 'integration_server'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752116     5109  UserTrace   BIP2382I: ACE node statistics. ProcessID='5055', Key='0', Label='Compute', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Compute'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752168     5109  UserTrace   BIP2382I: ACE node statistics. ProcessID='5055', Key='0', Label='MQ Input', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'MQ Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752204     5109  UserTrace   BIP2382I: ACE node statistics. ProcessID='5055', Key='0', Label='MQ Output', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Output'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752240     5109  UserTrace   BIP2382I: ACE node statistics. ProcessID='5055', Key='0', Label='MQ Output1', Type='MQOutputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='2'. 
+Statistical information for node 'MQ Output1'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752308     5109  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='5055', Key='1', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='integration_server', integrationNodeUUID='', integrationServerName='BE_SERVER', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='Sink1', StartDate='2021-04-17', StartTime='14:19:33.625469', GMTStartTime='2021-04-17T04:19:33.625+00:00', EndDate='2021-04-17', GMTEndTime='2021-04-17T04:19:36.683+00:00', EndTime='14:19:36.683806', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='1066', ElapsedTimeWaitingForInputMessage='3057927', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='3', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'Sink1' in integration node 'integration_server'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752404     5109  UserTrace   BIP2382I: ACE node statistics. ProcessID='5055', Key='1', Label='Compute', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Compute'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752440     5109  UserTrace   BIP2382I: ACE node statistics. ProcessID='5055', Key='1', Label='MQ Input', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'MQ Input'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752500     5109  UserTrace   BIP2380I: ACE message flow statistics. ProcessID='5055', Key='2', Type='SnapShot', Reason='Shutdown', integrationNodeLabel='integration_server', integrationNodeUUID='', integrationServerName='BE_SERVER', integrationServerUUID='00000000-0000-0000-0000-000000000000', MessageFlowName='Sink2', StartDate='2021-04-17', StartTime='14:19:33.619515', GMTStartTime='2021-04-17T04:19:33.619+00:00', EndDate='2021-04-17', GMTEndTime='2021-04-17T04:19:36.674+00:00', EndTime='14:19:36.674009', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CPUTimeWaitingForInputMessage='1084', ElapsedTimeWaitingForInputMessage='3054098', TotalInputMessages='0', TotalSizeOfInputMessages='0', MaximumSizeOfInputMessages='0', MinimumSizeOfInputMessages='0', NumberOfThreadsInPool='1', TimesMaximumNumberOfThreadsReached='0', TotalNumberOfMQErrors='0', TotalNumberOfMessagesWithErrors='0', TotalNumberOfErrorsProcessingMessages='0', TotalNumberOfTimeOuts='0', TotalNumberOfCommits='0', TotalNumberOfBackouts='3', AccountingOrigin='Anonymous'. 
+Statistical information for message flow 'Sink2' in integration node 'integration_server'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752576     5109  UserTrace   BIP2382I: ACE node statistics. ProcessID='5055', Key='2', Label='Compute', Type='ComputeNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='1', NumberOfOutputTerminals='6'. 
+Statistical information for node 'Compute'. 
+This is an information message produced by ACE statistics. 
+2021-04-17 14:19:36.752608     5109  UserTrace   BIP2382I: ACE node statistics. ProcessID='5055', Key='2', Label='MQ Input', Type='MQInputNode', TotalElapsedTime='0', MaximumElapsedTime='0', MinimumElapsedTime='0', TotalCPUTime='0', MaximumCPUTime='0', MinimumCPUTime='0', CountOfInvocations='0', NumberOfInputTerminals='0', NumberOfOutputTerminals='3'. 
+Statistical information for node 'MQ Input'. 
+This is an information message produced by ACE statistics. 
+
+====== Starting plaintext trace (process ID 12812 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 17:31:13.233472 ===
+
+
+====== Starting plaintext trace (process ID 3863 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 21:56:31.590830 ===
+
+
+====== Starting plaintext trace (process ID 71528 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-18 18:13:51.739092 ===
+
+
+====== Starting plaintext trace (process ID 79804 - integration_server.BE_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-18 21:15:25.763710 ===
+

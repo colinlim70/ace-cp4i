@@ -1,0 +1,9 @@
+.....2021-04-18 11:15:25.942946: .2021-04-18 21:15:25.943602: BIP1990I: Integration server 'BE_SERVER' starting initialization; version '11.0.0.11' (64-bit) 
+.....................Listening for transport dt_socket at address: 9998
+....................2021-04-18 21:15:33.433144: BIP2155I: About to 'Initialize' the deployed resource 'BackEnd' of type 'Application'. 
+2021-04-18 21:15:33.910400: BIP2155I: About to 'Start' the deployed resource 'BackEnd' of type 'Application'. 
+2021-04-18 21:15:33.910700: BIP2269I: Deployed resource 'Consumer' (uuid='Consumer',type='MessageFlow') started successfully. 
+..2021-04-18 21:15:34.645536: BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2021-04-18 21:15:34.662176: BIP3132I: The HTTP Listener has started listening on port '7602' for 'RestAdmin http' connections. 
+.
+2021-04-18 21:15:34.664816: BIP1991I: Integration server has finished initialization. 

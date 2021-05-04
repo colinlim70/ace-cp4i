@@ -1,0 +1,14 @@
+
+====== Starting plaintext trace (process ID 4941 - integration_server.SinK_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-17 22:06:56.185372 ===
+
+
+====== Starting plaintext trace (process ID 79977 - integration_server.SinK_SERVER) ======
+=== Build ib1100-L201216.46 (S1100-L201215.21186) - IBM App Connect Enterprise 11.0.0.11 ===
+=== Platform Linux / x86_64 / 3.10.0-1160.24.1.el7.x86_64 ===
+=== Timestamps are formatted in local time, 600 minutes past GMT. ===
+=== Time now 2021-04-18 21:15:57.132484 ===
+

@@ -1,0 +1,9 @@
+---
+RestAdminListener:
+   port: 7602
+   ipcSocket: '/tmp/1a068921-c9a5-4383-bb24-48d72618a876.uds'     #  DO NOT CHANGE THIS VALUE. USED FOR LOCAL COMMS WITH THE SERVER
+ResourceManagers:
+  HTTPConnector:
+    ListenerPort: 7802
+  JVM:
+    jvmDebugPort: 9998
