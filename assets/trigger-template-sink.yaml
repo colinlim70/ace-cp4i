@@ -1,0 +1,48 @@
+apiVersion: triggers.tekton.dev/v1alpha1
+kind: TriggerTemplate
+metadata:
+  name: acecicd-pipeline-trigger-sink
+spec:
+  resourcetemplates:
+  - apiVersion: tekton.dev/v1beta1
+    kind: PipelineRun
+    metadata:
+      generateName: acecicd-pipeline-run-
+      namespace: test-cp4i
+      labels:
+        tekton.dev/pipeline: acecicd-pipeline-sink
+    spec:
+      pipelineRef:
+        name: acecicd-pipeline-sink
+      resources:
+        - name: git-repo
+          resourceRef:
+            name: acecicd-res-git
+        - name: image
+          resourceRef:
+            name: acecicd-res-image
+      serviceAccountName: pipeline
+---
+apiVersion: triggers.tekton.dev/v1alpha1
+kind: EventListener
+metadata:
+  name: acecicd-listener-sink
+spec:
+  serviceAccountName: pipeline
+  triggers:
+  - name: acecicd-pipeline-trigger-sink
+    template:
+      name: acecicd-pipeline-trigger-sink
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    eventlistener: acecicd-listener-sink
+  name: acecicd-webhook-sink
+spec:
+  port:
+    targetPort: http-listener
+  to:
+    kind: Service
+    name: el-acecicd-listener-sink

@@ -1,0 +1,11 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: acecicd-res-git
+spec:
+  type: git
+  params:
+  - name: revision
+    value: main
+  - name: url
+    value: https://github.com/colinlim70/ace-cp4i.git
