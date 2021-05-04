@@ -20,7 +20,7 @@ spec:
       default: test-cp4i
       description: namespace used to build the image url
     - name: IMGTAG
-      default: 'imgtag'
+      default: 'imgcfg.sink'
       type: string
   results:
     - name: image_tag
@@ -38,7 +38,7 @@ spec:
       image: $(params.BUILDER_IMAGE)
       script: |
         ls ./bars
-        . ./imgcfg
+        . ./$(params.IMGTAG)
         buildah bud --storage-driver=vfs --format=oci \
           --tls-verify=$(params.TLSVERIFY) --layers \
           -f $(params.DOCKERFILE) -t $(resources.inputs.image.url)/$(params.namespace)/$imgname:$imgtag .
