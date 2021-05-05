@@ -5,3 +5,10 @@ metadata:
 spec:
   pipelineRef:
     name: acecicd-pipeline-sink
+  resources:
+    - name: git-repo
+      resourceRef:
+        name: acecicd-res-git
+    - name: image
+      resourceRef:
+        name: acecicd-res-image
