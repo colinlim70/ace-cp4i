@@ -1,0 +1,7 @@
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: ace-pipeline-run-fe
+spec:
+  pipelineRef:
+    name: acecicd-pipelina-fe
