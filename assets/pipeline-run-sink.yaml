@@ -4,4 +4,4 @@ metadata:
   name: ace-pipeline-run-sink
 spec:
   pipelineRef:
-    name: acecicd-pipelina-sink
+    name: acecicd-pipeline-sink

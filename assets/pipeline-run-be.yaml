@@ -4,4 +4,4 @@ metadata:
   name: ace-pipeline-run-be
 spec:
   pipelineRef:
-    name: acecicd-pipelina-be
+    name: acecicd-pipeline-be
