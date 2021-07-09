@@ -1,4 +1,4 @@
-FROM 192.168.1.77:5001/ibmcom/ace-server:11.0.0.12-r1-20210422-114930-amd64
+FROM 192.168.1.77:5001/ibmcom/ace-server:11.0.0.12-r1-eus-20210422-114930-amd64
 COPY BackEnd /home/aceuser/BackEnd
 RUN export LICENSE="accept" \
     && source /opt/ibm/ace-11/server/bin/mqsiprofile \
