@@ -24,8 +24,8 @@ The repo contains the resources to install the Tekton pipeline and to build the 
 
 # Workflow
 The workflow of the automatic deployment is the following:
-  - A push is performed in the git repo
-  - The webhook trigs the pipeline
+  - A push is performed in the git repo 
+  - The webhook trigs the pipeline (not implemented - manual trigger)
   - The pipeline initiates the build
     - The git repo from branch main is cloned
     - The Dockerfile is used to build the ace image. The name of the image is composed from the imgcfg file
