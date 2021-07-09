@@ -16,7 +16,7 @@ spec:
       description: image name
     - name: license
       description: license number 2021.2.1
-      default: L-RJON-BZFQU2
+      default: L-KSBM-BZWEAT
     - name: tracing_ns
       default: test-cp4i
       description: namespace where OD is installed
